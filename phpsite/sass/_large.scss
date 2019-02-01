@@ -1,0 +1,84 @@
+@media only screen and (min-width: 60rem) {
+ header {
+ 	padding: 1rem 0 0 0;
+
+ 	h2 {
+  	display: block;
+  	margin-bottom: 1rem;
+  }
+
+  figure.logo {
+  	max-width: 100px;
+  }
+ }
+
+header, main {max-width: 60rem; margin:0 auto;}
+
+/*  ------------- NAVIGATION -------------  */
+nav {
+	max-width: 60rem;
+	margin: 0 auto;	
+	padding: 0;
+
+	ul li {
+		float: left;
+		padding: 0;
+		margin-left: 0;
+	}
+		input.magnify {
+			float: right;
+			margin: .25rem 0 .25rem 0 !important;
+			height: 30px;
+			border-radius: 3px;
+		}
+
+}
+
+/*  ------------- MAIN -------------  */
+main {
+	div.myslider {
+		max-width: 60rem;
+	}
+	figure.blog {
+		width: 25%-$gutterdbl; 
+		float:left;
+		position: relative;
+	}
+
+ 	figure.blog h2{
+	  position: absolute;
+	  bottom: 180px;
+	  left: -4px;
+	  width: 100%;
+	  padding: .5rem;
+	  height: 35px;
+	}
+
+ 	figure.blog span {
+		position: absolute;
+	  	bottom: 15px;
+	  	left: 0px;
+	  	padding: .4rem;
+	}
+}
+
+/*  ------------- FOOTER -------------  */
+footer {
+	background-color: $primaryColor;
+
+	div.footerContainer {
+		margin: 0 auto;
+		max-width: 60rem;
+		padding: 0;
+	}
+
+	div {
+		flex-basis: 33%;
+		padding: 1rem $gutter;
+		}
+	.cabot {
+		flex-basis: 33%;
+	}
+	}//end footer
+
+}//end media

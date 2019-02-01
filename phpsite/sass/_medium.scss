@@ -1,0 +1,118 @@
+ @media only screen and (min-width: 35rem) {
+
+ header {
+ 	width: 100%;
+  }
+/*  ------------- NAVIGATION -------------  */
+
+nav {
+
+	postition: relative;
+	button {display: none;}
+	ul.closed{display:block;}
+
+	ul li {float: left;}
+
+	ul li a {
+		border: none;
+		border-right: 1px solid rgba(0,0,0,0.2);
+		padding: .7rem .9rem;
+		transition: background 0.3s linear;
+		-webkit-transition: background 0.3s linear;
+	}
+
+	ul li ul {
+		left: -999em;
+		z-index: 99;
+		background-color: lighten($secondaryColor, 10%);
+		position: absolute;
+		width: 10rem;
+	}
+
+	ul li:hover ul {left: auto;}
+	ul li a:hover {background-color: darken($secondaryColor, 10%);}
+
+
+	ul li ul li {
+		float: none;
+		border-bottom: 1px solid rgba(0,0,0,0.2);
+	}
+
+
+
+
+}//end nav
+
+
+
+/*  ------------- MAIN -------------  */
+main {
+	figure.blog {
+		width: 33%-$gutterdbl; 
+		float:left;
+		position: relative;
+	}
+
+ 	figure.blog h2{
+	  position: absolute;
+	  top: -12px;
+	  left: -5px;
+	  width: 100%;
+	  padding: .5rem;
+	  height: 45px;
+	}
+
+	form{
+    max-width: 25rem;
+    }
+
+/* Overall styling for the CRUISES  */
+
+    div.cruises {
+    	height: 300px;
+
+		figure {width: 33%; margin: 2rem 0 2rem $gutter; float: left;}
+		figure img {width: 100%;}
+		h2 {
+			float: left;
+			margin: 2rem 0 .5rem 2.6rem;
+		}
+		p {
+			float: right;
+			margin: 0 .4rem .7rem 0;
+			font-size: 1.1rem;
+			width: 60%;
+
+		}
+		input {
+			float: right;
+			max-width: 10rem;
+	        margin: .7rem .4rem 0 0;
+	        position: relative;
+	        right: 0;
+	        bottom: 0;
+
+
+		}	
+	}
+
+	div.agent {
+	figure {width: 400px; float: right; margin-bottom: 2rem;}
+	figure img {width: 100%; float: right;}
+	}
+
+} // end main
+
+/*  ------------- FOOTER -------------  */
+footer {
+	div {
+		flex-basis: 50%;
+		padding: 1rem $gutter;
+	}
+	.cabot {
+		flex-basis: 100%;
+	}
+}
+
+
+}

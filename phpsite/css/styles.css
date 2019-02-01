@@ -1,0 +1,625 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/*$secondaryColor: #AEB5BA;*/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/*  apply a natural box layout model to all elements  */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*end media query */
+/* ------------- BODY ------------- */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 300; }
+
+div#headerWrapper {
+  background-color: #AEB5BA; }
+
+/*  ------------- HEADER -------------  */
+header {
+  background-color: #AEB5BA;
+  color: #1A5E63;
+  padding: 1rem 2%; }
+  header h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left: 2%; }
+  header h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    float: right;
+    color: #AEB5BA;
+    margin-left: 2%; }
+    header h2 a {
+      text-decoration: none;
+      color: #1A5E63;
+      float: right; }
+
+/*  ------------- NAV -------------  */
+div#navWrapper {
+  background-color: #1A5E63; }
+
+/* Overall styling for the NAVIGATION of the document */
+nav {
+  background-color: #1A5E63;
+  width: 100%; }
+  nav button {
+    background-image: url(../images/menuIconWhite.png);
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-size: 86%;
+    background-position: center center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 6px 0 6px 2%; }
+  nav ul.closed {
+    display: none; }
+  nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: .7rem 2%;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3); }
+  nav ul li.active a {
+    background-color: #00AFA4; }
+  nav ul li ul li a {
+    padding-left: 8%; }
+  nav form {
+    display: inline-block;
+    vertical-align: top;
+    float: right; }
+    nav form input.search {
+      float: right;
+      margin: .25rem 0 .25rem .25rem;
+      height: 30px;
+      border-radius: 3px; }
+    nav form input.magnify {
+      float: right;
+      margin: .25rem .25rem .25rem 0;
+      height: 30px;
+      border-radius: 3px; }
+
+/*  ------------- MAIN -------------  */
+main {
+  /* Overall styling for the SLICK SLIDER  */
+  /* Overall styling for the CRUISES  */
+  /* Overall styling for the BLOG  */
+  /* Overall styling for the FORM */
+  /* Overall styling for the AGENTS  */ }
+  main h1 {
+    font-size: 2rem;
+    margin: 4rem 0 0.5rem 2%;
+    color: #1A5E63; }
+  main h2 {
+    font-size: 1.5rem;
+    margin: 0.75rem 0 0.5rem 2%;
+    color: #25848b; }
+  main p {
+    line-height: 130%; }
+  main div.myslider div {
+    width: 100%; }
+  main div.myslider div img {
+    width: 100%; }
+  main h2.cruises {
+    margin: 1rem 2%; }
+  main div.cruises figure {
+    width: 95%;
+    margin: 1rem 2% 1rem 2%;
+    float: left; }
+  main div.cruises figure img {
+    width: 100%; }
+  main div.cruises h2 {
+    float: left;
+    margin: 0.5rem 2%; }
+  main div.cruises p {
+    float: left;
+    margin: 0.5rem 2%;
+    font-size: 1.2rem; }
+  main div.cruises input {
+    float: left;
+    width: 95%;
+    border: none;
+    background-color: #1A5E63;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: .4rem 1rem;
+    border-radius: 1rem;
+    margin: 1rem 2% 2rem 2%; }
+  main figure.blog {
+    width: 46%;
+    margin: 0.5rem 2% 2rem 2%;
+    float: left;
+    padding-bottom: .8rem;
+    position: relative; }
+  main figure.blog img {
+    width: 100%;
+    opacity: .75;
+    transition: opacity .5s ease-out; }
+  main figure.blog img:hover {
+    opacity: 1; }
+  main figure.blog h2 {
+    color: white;
+    margin-left: 2%;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: center;
+    background-color: rgba(26, 94, 99, 0.7);
+    position: absolute;
+    top: -12px;
+    left: -5px;
+    width: 100%;
+    padding: .5rem;
+    height: 35px; }
+  main figure.blog span {
+    width: 100%;
+    background-color: rgba(26, 94, 99, 0.7);
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    padding: .4rem;
+    text-align: center; }
+  main form {
+    margin: 1rem 2%;
+    width: 95%; }
+    main form fieldset {
+      border: 1px solid #e5e7e9;
+      border-radius: .4rem;
+      padding: 0 2%;
+      margin: 2rem 0; }
+      main form fieldset legend {
+        text-align: left;
+        color: #AEB5BA;
+        padding: 0 .8rem;
+        font-size: 1.5rem; }
+    main form label.top {
+      display: block;
+      padding: .75rem 0; }
+      main form label.top span {
+        font-size: .75rem;
+        color: #1A5E63; }
+      main form label.top input, main form label.top textarea {
+        display: block;
+        font-size: 1rem;
+        padding: .75rem;
+        background-color: #F6F6F6;
+        border: 1px solid #bbb;
+        color: #1A5E63;
+        margin-top: .2rem;
+        width: 100%; }
+      main form label.top textarea {
+        min-height: 13rem; }
+      main form label.top input:required {
+        border: 2px solid #1A5E63; }
+      main form label.top input:required:valid {
+        border-color: green; }
+    main form label.sbs {
+      display: block;
+      padding: .75rem 0; }
+    main form label.radio {
+      display: flex;
+      flex-direction: column;
+      font-size: 1rem; }
+      main form label.radio select {
+        background-color: #F6F6F6;
+        padding: .75rem;
+        text-align: left;
+        border: 1px solid #bbb;
+        color: #1A5E63;
+        margin-top: .2rem;
+        width: 100%; }
+    main form input.submitBtn {
+      border: none;
+      background-color: #00AFA4;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 300;
+      padding: .4rem 1rem;
+      border-radius: 1rem;
+      width: 100%;
+      margin: 2rem 2%;
+      float: left; }
+  main div.agent figure {
+    width: 100%;
+    float: right;
+    margin-bottom: 2rem; }
+  main div.agent figure img {
+    width: 100%;
+    float: right;
+    border-radius: 10px; }
+  main div.agent figcaption {
+    color: #1A5E63;
+    font-size: 1.1rem;
+    margin: 5px; }
+  main div.agent h1 {
+    margin: 2rem 0 1.5rem 2%; }
+  main div.agent h3 {
+    color: #1A5E63;
+    font-size: 1.4rem;
+    margin: 0.2rem 0 0 2%; }
+  main div.agent p {
+    color: #2E282A;
+    font-size: 1.1rem;
+    margin: 0.5rem 0 1.5rem 2%;
+    text-decoration: none; }
+
+/*  ------------- FOOTER -------------  */
+footer {
+  width: 100%;
+  background-color: #AEB5BA;
+  position: relative;
+  margin-top: 0px;
+  height: 400px;
+  clear: both;
+  /* Overall styling for the FORM */
+  /* HEADER SOCIAL ICONS*/
+  /* BRAND COLOR HOVER
+    ul.social .twitter a:hover{background-position: -90px -0px;}
+    ul.social .youtube a:hover{background-position: -225px -0px;}
+    ul.social .facebook a:hover{background-position: -45px -0px;}
+    ul.social .linkedin a:hover{background-position: -0px -0px;}
+    ul.social .google a:hover{background-position: -180px -0px;}
+  */ }
+  footer h2 {
+    font-size: 2rem;
+    color: #1A5E63;
+    font-weight: 300;
+    padding-bottom: 1rem; }
+  footer p {
+    text-align: left;
+    color: white;
+    padding: .2rem 0;
+    font-size: 1.2rem; }
+  footer a {
+    text-decoration: none; }
+  footer p a {
+    color: white;
+    text-decoration: none; }
+  footer div.footerContainer {
+    display: flex;
+    flex-wrap: wrap; }
+  footer div {
+    flex-basis: 100%;
+    padding: 1rem 2%;
+    justify-content: center;
+    background-color: #AEB5BA; }
+  footer div.footerContainer ul {
+    list-style: none; }
+  footer div.footerContainer ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    padding: 1rem; }
+  footer form {
+    margin: 1rem 2%;
+    max-width: 25rem; }
+    footer form label.top {
+      display: block;
+      padding: .75rem 0;
+      color: white;
+      font-size: 1.8rem;
+      font-weight: 300; }
+      footer form label.top span {
+        font-size: .75rem;
+        color: white; }
+      footer form label.top input {
+        display: block;
+        font-size: 1rem;
+        padding: .75rem;
+        background-color: #F6F6F6;
+        border: 1px solid #bbb;
+        color: #AEB5BA;
+        margin-top: .2rem;
+        width: 100%; }
+      footer form label.top input:required {
+        border: 2px solid #1A5E63; }
+      footer form label.top input:required:valid {
+        border-color: green; }
+    footer form input.submitBtn {
+      border: none;
+      background-color: #1A5E63;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 300;
+      padding: .4rem 1rem;
+      border-radius: 1rem;
+      width: 100%; }
+  footer ul.social {
+    display: flex;
+    justify-content: center;
+    background-color: #1A5E63;
+    margin-bottom: 1rem;
+    padding: 1rem; }
+  footer ul.social li {
+    list-style-type: none;
+    float: left;
+    width: auto; }
+  footer ul.social li a {
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/social.png);
+    height: 45px;
+    width: 45px; }
+  footer ul.social .twitter a {
+    background-position: -90px -45px; }
+  footer ul.social .youtube a {
+    background-position: -225px -45px; }
+  footer ul.social .facebook a {
+    background-position: -45px -45px; }
+  footer ul.social .linkedin a {
+    background-position: -0px -45px; }
+  footer ul.social .google a {
+    background-position: -180px -45px; }
+  footer ul.social .twitter a:hover {
+    background-color: #00AFA4; }
+  footer ul.social .youtube a:hover {
+    background-color: #00AFA4; }
+  footer ul.social .facebook a:hover {
+    background-color: #00AFA4; }
+  footer ul.social .linkedin a:hover {
+    background-color: #00AFA4; }
+  footer ul.social .google a:hover {
+    background-color: #00AFA4; }
+  footer p.jhfooter {
+    display: flex;
+    justify-content: center;
+    color: #272727;
+    background-color: white;
+    margin: 1rem 0 1rem 0;
+    padding-top: 1rem;
+    width: 100%;
+    font-size: 1rem; }
+    footer p.jhfooter a {
+      color: #272727;
+      font-size: 1rem; }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media only screen and (min-width: 35em) and (min-width: 35rem) {
+  header {
+    width: 100%; }
+
+  /*  ------------- NAVIGATION -------------  */
+  nav {
+    postition: relative; }
+    nav button {
+      display: none; }
+    nav ul.closed {
+      display: block; }
+    nav ul li {
+      float: left; }
+    nav ul li a {
+      border: none;
+      border-right: 1px solid rgba(0, 0, 0, 0.2);
+      padding: .7rem .9rem;
+      transition: background 0.3s linear;
+      -webkit-transition: background 0.3s linear; }
+    nav ul li ul {
+      left: -999em;
+      z-index: 99;
+      background-color: #25848b;
+      position: absolute;
+      width: 10rem; }
+    nav ul li:hover ul {
+      left: auto; }
+    nav ul li a:hover {
+      background-color: #0f383b; }
+    nav ul li ul li {
+      float: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+  /*  ------------- MAIN -------------  */
+  main {
+    /* Overall styling for the CRUISES  */ }
+    main figure.blog {
+      width: 29%;
+      float: left;
+      position: relative; }
+    main figure.blog h2 {
+      position: absolute;
+      top: -12px;
+      left: -5px;
+      width: 100%;
+      padding: .5rem;
+      height: 45px; }
+    main form {
+      max-width: 25rem; }
+    main div.cruises {
+      height: 300px; }
+      main div.cruises figure {
+        width: 33%;
+        margin: 2rem 0 2rem 2%;
+        float: left; }
+      main div.cruises figure img {
+        width: 100%; }
+      main div.cruises h2 {
+        float: left;
+        margin: 2rem 0 .5rem 2.6rem; }
+      main div.cruises p {
+        float: right;
+        margin: 0 .4rem .7rem 0;
+        font-size: 1.1rem;
+        width: 60%; }
+      main div.cruises input {
+        float: right;
+        max-width: 10rem;
+        margin: .7rem .4rem 0 0;
+        position: relative;
+        right: 0;
+        bottom: 0; }
+    main div.agent figure {
+      width: 400px;
+      float: right;
+      margin-bottom: 2rem; }
+    main div.agent figure img {
+      width: 100%;
+      float: right; }
+
+  /*  ------------- FOOTER -------------  */
+  footer div {
+    flex-basis: 50%;
+    padding: 1rem 2%; }
+  footer .cabot {
+    flex-basis: 100%; } }
+@media only screen and (min-width: 64em) and (min-width: 60rem) {
+  header {
+    padding: 1rem 0 0 0; }
+    header h2 {
+      display: block;
+      margin-bottom: 1rem; }
+    header figure.logo {
+      max-width: 100px; }
+
+  header, main {
+    max-width: 60rem;
+    margin: 0 auto; }
+
+  /*  ------------- NAVIGATION -------------  */
+  nav {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0; }
+    nav ul li {
+      float: left;
+      padding: 0;
+      margin-left: 0; }
+    nav input.magnify {
+      float: right;
+      margin: .25rem 0 .25rem 0 !important;
+      height: 30px;
+      border-radius: 3px; }
+
+  /*  ------------- MAIN -------------  */
+  main div.myslider {
+    max-width: 60rem; }
+  main figure.blog {
+    width: 21%;
+    float: left;
+    position: relative; }
+  main figure.blog h2 {
+    position: absolute;
+    bottom: 180px;
+    left: -4px;
+    width: 100%;
+    padding: .5rem;
+    height: 35px; }
+  main figure.blog span {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    padding: .4rem; }
+
+  /*  ------------- FOOTER -------------  */
+  footer {
+    background-color: #AEB5BA; }
+    footer div.footerContainer {
+      margin: 0 auto;
+      max-width: 60rem;
+      padding: 0; }
+    footer div {
+      flex-basis: 33%;
+      padding: 1rem 2%; }
+    footer .cabot {
+      flex-basis: 33%; } }
